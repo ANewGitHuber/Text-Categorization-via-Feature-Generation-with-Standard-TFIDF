@@ -45,4 +45,4 @@ Finally, the dataset is saved into .npz file, where A is a matrix represented w
 
 Decompress dataset.zip in the same path as the Python file.
 
-@John Chen
+@John Chen, 2021. All rights to source codes are reserved.
