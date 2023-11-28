@@ -39,7 +39,7 @@ The data set can be represented as a matrix
 
 where D is the number of unique words in the document collection. 
 
-Finally, the dataset is saved into .npz file, where A is a matrix represented with the numpy array.
+Finally, the dataset is saved into .npz file, where A is a matrix represented with the numpy array.
 
 ## Notice
 
