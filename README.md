@@ -12,13 +12,15 @@ where N represents the number of documents in the dataset and D represents the n
 
 The documents are represented as the vector space model. In the vector space model, each document is represented as a vector of words. A collection of documents is represented by a document-by-word matrix A
 
-![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/6968e482-dfed-458a-8a2c-0213e0271912)
+![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/bb326624-f494-4417-b34a-c38513fe89d7)
+
 
 where aik is the weight of word k in document I.
 
 TFIDF representation assigns the weight to word i in document k in proportion to the number of occurrences of the word in the document, and inverse proportion to the number of documents in the collection for which the word occurs at least once.
 
-![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/2f5090b6-5153-4a4e-bbb2-4a0e04ee8421)
+![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/87b11f8c-6428-4b72-a557-01d963d610ff)
+
 
 fik: the frequency of word k in document I
 
@@ -28,7 +30,8 @@ nk: the total number of times word k occurs in the dataset called the document f
 
 Notice that the entry aik is 0 if the word k is not included in document I. Taking into account the length of different documents, we normalize the representation of the document as
 
-![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/4ecbf6f3-b7c7-49e0-aaec-065b82947e84)
+![image](https://github.com/ANewGitHuber/Text-Categorization-via-Feature-Generation-with-Standard-TFIDF/assets/88078123/08b8b716-7499-4741-853f-7461ce909e7a)
+
 
 The data set can be represent as a matrix
 
